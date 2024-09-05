@@ -1,0 +1,9 @@
+[package]
+name = "tlk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "0.4.3"
+serde = { version = "1.0.209", features = ["derive"] }
+sha2 = "0.10.8"
